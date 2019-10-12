@@ -1,0 +1,52 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.thirdColumn {
+  width: 30%;
+  height: 100%;
+}
+
+.navigation {
+  flex-direction: column;
+  margin-top: 0;
+  margin-right: 50px;
+  margin-left: 50px;
+} 
+
+.searchBox {
+  background-color: rgb(230, 236, 240);
+  flex-direction: row;
+  width: 320px;
+  height: 35px;
+  border: solid;
+  border-color: transparent;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 28px;
+  height: 18px;
+  color: rgb(101, 119, 134);
+  margin: 4px 0 0 0;
+}
+
+.searchTwitter {
+  color: rgb(101, 119, 134);
+  margin: 7px 0 0 5px;
+  font-size: 14px;
+}
+
+.trends {
+  flex-direction: column;
+}
+
+.trendItem {
+  background-color:  rgb(230, 236, 240);
+  width: 320px;
+  height: 35px;
+}

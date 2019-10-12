@@ -1,0 +1,70 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.secondColumn {
+  width: 30%;
+  height: 100%;
+  margin-top: 0;
+  flex: 1;
+}
+
+.navigation {
+  margin-top: 0;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-left: 50px;
+} 
+
+.header {
+  width: 600px;
+  height: 46px;
+  border: solid;
+  border-width: 0 .5px .5px .5px;
+  border-color: rgb(230, 236, 240);
+}
+
+.newTweet {
+  border: solid;
+  border-width: 0 .5px .5px .5px;
+  border-color: rgb(230, 236, 240);
+}
+
+.tweet {
+  border: solid;
+  border-width: 0 .5px .5px .5px;
+  border-color: rgb(230, 236, 240);
+}
+
+.tweetIcons {
+  width: 20px;
+  height: 20px;
+  color: rgb(29,161,242);
+  margin-left: 10px;
+}
+
+.tweetMiniButton {
+  display: flex;
+  background-color: rgb(29,161,242);
+  border-color: transparent;
+  border-radius: 30px;
+  width: 60px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  align-self: flex-end;
+  margin: 0 10px 10px 160px;
+}
+
+.tweetBottomButtons{
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+.tweetBottomButtonsNumbers {
+  margin: 0 0 5px 10px;
+}

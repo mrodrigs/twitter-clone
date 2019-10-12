@@ -2,10 +2,6 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  height: 100%;
-}
-
 .flex {
   display: flex;
 }
@@ -17,12 +13,9 @@ body {
 .firstColumn {
   width: 20%;
   height: 100%;
+  padding-right: 35px;
 }
 
-.secondColumn {
-  width: 50%;
-  height: 100%;
-}
 
 .flexRow {
   display: flex;
@@ -34,13 +27,12 @@ body {
 /* Navigation */
 .navigation {
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 0;
   margin-right: 50px;
   margin-left: 50px;
 }
 
 .navigationText {
-  font-weight: bold;
   margin-top: 3px;
   margin-left: 10px;
 }
