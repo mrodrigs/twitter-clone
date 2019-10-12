@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaRetweet, FaRegHeart, FaUpload } from 'react-icons/fa';
-import { MdImage, MdGif, MdInsertChart, MdTagFaces, MdChatBubbleOutline, } from 'react-icons/md';
+import { MdImage, MdGif, MdInsertChart, MdTagFaces } from 'react-icons/md';
 
 import Tweet from '../Tweet/Tweet';
 
@@ -34,6 +33,19 @@ export default function SecondColumn() {
         </div>
 
         <Tweet
+          profileImg={require('../../images/spotify.png')}
+          name="Spotify"
+          user="@spotify"
+          date="Oct 10"
+          text="Crisis Text Line is free, 24/7 support for those in crisis. Text HOME to talk to a trained Crisis Counselor; there for everyone and anyone.
+          🇺🇸: 741741 
+          🇨🇦: 686868 
+          🇬🇧: 85258"
+          comments="1"
+          retweets="41"
+          fav="109"
+        />
+        <Tweet
           profileImg={require('../../images/elonMusk.png')}
           name="Elon Musk"
           user="@elonmusk"
@@ -42,26 +54,6 @@ export default function SecondColumn() {
           comments="620"
           retweets="1.6K"
           fav="27.9"
-        />
-        <Tweet
-          profileImg={require('../../images/react.png')}
-          name="React"
-          user="@reactjs"
-          date="Aug 15"
-          text="Heads up: v4.0.0 and v4.0.1 requested too broad permissions due to our mistake. We’ve uploaded v4.0.2 with a fix to both Chrome and Firefox stores. If you're still affected, please delete and reinstall the extension."
-          comments="1"
-          retweets="23"
-          fav="118"
-        />
-        <Tweet
-          profileImg={require('../../images/reactnative.png')}
-          name="React Native"
-          user="@reactnative"
-          date="Sep 5"
-          text="Phase three will revamp initialization and improve startup time, rolling out in late 2020. Most initialization will be moved into a shared C++ core and RN won't require the native+JavaScript bridge any longer."
-          comments="5"
-          retweets="29"
-          fav="149"
         />
         <Tweet
           profileImg={require('../../images/rocketseat.png')}
@@ -74,17 +66,24 @@ export default function SecondColumn() {
           fav="146"
         />
         <Tweet
-          profileImg={require('../../images/spotify.png')}
-          name="Spotify"
-          user="@spotify"
-          date="Oct 10"
-          text="Crisis Text Line is free, 24/7 support for those in crisis. Text HOME to talk to a trained Crisis Counselor; there for everyone and anyone.
-          🇺🇸: 741741 
-          🇨🇦: 686868 
-          🇬🇧: 85258"
+          profileImg={require('../../images/reactnative.png')}
+          name="React Native"
+          user="@reactnative"
+          date="Sep 5"
+          text="Phase three will revamp initialization and improve startup time, rolling out in late 2020. Most initialization will be moved into a shared C++ core and RN won't require the native+JavaScript bridge any longer."
+          comments="5"
+          retweets="29"
+          fav="149"
+        />
+        <Tweet
+          profileImg={require('../../images/react.png')}
+          name="React"
+          user="@reactjs"
+          date="Aug 15"
+          text="Heads up: v4.0.0 and v4.0.1 requested too broad permissions due to our mistake. We’ve uploaded v4.0.2 with a fix to both Chrome and Firefox stores. If you're still affected, please delete and reinstall the extension."
           comments="1"
-          retweets="41"
-          fav="109"
+          retweets="23"
+          fav="118"
         />
         <Tweet
           profileImg={require('../../images/deschamps.png')}
